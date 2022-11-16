@@ -1,0 +1,71 @@
+# depslib dependency file v1.0
+1641043042 source:k:\work\centipede\asmdis.c
+	"centipede.h"
+	<math.h>
+	<string.h>
+	<stdio.h>
+	<ctype.h>
+	<inttypes.h>
+
+1640535050 k:\work\centipede\centipede.h
+	<stdint.h>
+	"platform/pic32mx1/platform.h"
+	"platform/generic/platform.h"
+	"vm.h"
+	"asmdis.h"
+	"monitor.h"
+
+1640855900 k:\work\centipede\platform\pic32mx1\platform.h
+	<xc.h>
+	<plib.h>
+	"../../vm.h"
+
+1641035077 k:\work\centipede\vm.h
+	<stdint.h>
+
+1640536324 k:\work\centipede\platform\generic\platform.h
+	<stdint.h>
+	"../../vm.h"
+
+1640768719 k:\work\centipede\asmdis.h
+	<stdint.h>
+
+1641038365 k:\work\centipede\monitor.h
+	<stdint.h>
+
+1641042245 source:k:\work\centipede\vm.c
+	"centipede.h"
+	<math.h>
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	<inttypes.h>
+
+1641038451 source:k:\work\centipede\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+	"centipede.h"
+
+1641038601 source:k:\work\centipede\monitor.c
+	"centipede.h"
+	"xmodem/xmodem.h"
+	<string.h>
+	<stdio.h>
+	<ctype.h>
+	<plib.h>
+
+1639923232 k:\work\centipede\xmodem\xmodem.h
+	<stdio.h>
+
+1640598446 source:k:\work\centipede\platform\generic\platform.c
+	"platform.h"
+	<stdio.h>
+	<string.h>
+	<time.h>
+
+1640598298 source:k:\work\centipede\xmodem\xmodem.c
+	<string.h>
+	"xmodem.h"
+
