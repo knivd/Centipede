@@ -1,4 +1,4 @@
-# centipede
+# Project Centipede
 PIC32MX1-based software emulation of a simple multi-core stack processor
 
 Hackaday project page:
